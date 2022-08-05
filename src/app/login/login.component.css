@@ -1,0 +1,8 @@
+.errorMessage {
+    color: red;
+    /* border: 1px solid red; */
+    display: inline;
+}
+#submit-button {
+    margin: 3px;
+}
