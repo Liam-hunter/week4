@@ -29,17 +29,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## liam's list of commands used
-<!-- to install angular -->
-1. npm install -g @angular/cli 
-<!-- create angular application project -->
-2. ng new week4tut
-<!-- to serve the application (view it in browser) -->
-3. ng serve
-3. ng serve --open
-<!-- to install css for styling -->
-4. npm install bootstrap --save
-<!-- to create a new 'component' (webpage?) -->
-5. ng generate component "pageName"
-<!-- add a route for a new page component into the angular router -->
-<!-- I think I automatically generated this when creating the project? and didn't actually use this -->
-6. ng generate module app-routing --flat --module=app
+To install angular
+* npm install -g @angular/cli 
+Create angular application project
+* ng new week4tut
+To serve the application (view it in browser)
+* ng serve
+or
+* ng serve --open
+To install css for styling
+* npm install bootstrap --save
+To create a new 'component' (webpage?)
+* ng generate component "pageName"
+Add a route for a new page component into the angular router. I think I automatically generated this when creating the project? and didn't actually use this tbh
+* ng generate module app-routing --flat --module=app
